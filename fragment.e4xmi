@@ -5,9 +5,9 @@
     <elements xsi:type="commands:Command" xmi:id="_R3rXsBpXEeio8_j2bAfDXQ" elementId="project003.command.clearpartdescriptor" commandName="Clear Part Descriptor"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ay2GQBozEeiy6NreA-KxgA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
-    <elements xsi:type="basic:PartDescriptor" xmi:id="_eUj5gBozEeiy6NreA-KxgA" elementId="project003.partdescriptor.viewpartdescriptor" label="View Part Descriptor" iconURI="platform:/plugin/project003/icons/sample.png" contributionURI="bundleclass://project003/project003.SimpleView">
-      <handlers xmi:id="_s3HkABozEeiy6NreA-KxgA" elementId="project003.handler.0" contributionURI="bundleclass://project003/project003.ShowHelloPartDescriptorHandler" command="_XQ3NQBozEeiy6NreA-KxgA"/>
-      <handlers xmi:id="_UaO0ABpXEeio8_j2bAfDXQ" elementId="project003.handler.1" contributionURI="bundleclass://project003/project003.ClearPartDescriptorHandler" command="_R3rXsBpXEeio8_j2bAfDXQ"/>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_eUj5gBozEeiy6NreA-KxgA" elementId="project003.partdescriptor.viewpartdescriptor" label="View Part Descriptor" iconURI="platform:/plugin/project0227-part-descriptor-crowe/icons/sample.png" contributionURI="bundleclass://project0227-part-descriptor-crowe/project003.SimpleView">
+      <handlers xmi:id="_s3HkABozEeiy6NreA-KxgA" elementId="project003.handler.0" contributionURI="bundleclass://project0227-part-descriptor-crowe/project003.ShowHelloPartDescriptorHandler" command="_XQ3NQBozEeiy6NreA-KxgA"/>
+      <handlers xmi:id="_UaO0ABpXEeio8_j2bAfDXQ" elementId="project003.handler.1" contributionURI="bundleclass://project0227-part-descriptor-crowe/project003.ClearPartDescriptorHandler" command="_R3rXsBpXEeio8_j2bAfDXQ"/>
       <menus xsi:type="menu:PopupMenu" xmi:id="_m--E4BozEeiy6NreA-KxgA" elementId="project003.popupmenu.mypopupmenu" label="My Popup Menu">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_pl65ABozEeiy6NreA-KxgA" elementId="project003.handledmenuitem.showhellopartdescriptor" label="Show Hello Part Descriptor" command="_XQ3NQBozEeiy6NreA-KxgA"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_xcjJIBpWEeio8_j2bAfDXQ" elementId="project003.handledmenuitem.clearpartdescriptor" label="Clear Part Descriptor" command="_R3rXsBpXEeio8_j2bAfDXQ"/>

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Project003
-Bundle-SymbolicName: project003;singleton:=true
+Bundle-SymbolicName: project0227-part-descriptor-crowe;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: project003.Activator
 Require-Bundle: javax.inject;bundle-version="0.0.0",
