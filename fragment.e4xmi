@@ -2,12 +2,15 @@
 <fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_N28QgBozEeiy6NreA-KxgA">
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UPBz8BozEeiy6NreA-KxgA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
     <elements xsi:type="commands:Command" xmi:id="_XQ3NQBozEeiy6NreA-KxgA" elementId="project003.command.showhelloworld" commandName="Show Hello World"/>
+    <elements xsi:type="commands:Command" xmi:id="_R3rXsBpXEeio8_j2bAfDXQ" elementId="project003.command.clearscreen" commandName="ClearScreen"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ay2GQBozEeiy6NreA-KxgA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
-    <elements xsi:type="basic:PartDescriptor" xmi:id="_eUj5gBozEeiy6NreA-KxgA" elementId="project003.partdescriptor.simpleview1example" label="Simple View 1 Example" iconURI="platform:/plugin/project003/icons/sample.png" contributionURI="bundleclass://project003/project003.SimpleView">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_eUj5gBozEeiy6NreA-KxgA" elementId="project003.partdescriptor.showhellopartdescriptor" label="Show Hello Part Descriptor" iconURI="platform:/plugin/project003/icons/sample.png" contributionURI="bundleclass://project003/project003.SimpleView">
       <handlers xmi:id="_s3HkABozEeiy6NreA-KxgA" elementId="project003.handler.0" contributionURI="bundleclass://project003/project003.ViewPopupHandler" command="_XQ3NQBozEeiy6NreA-KxgA"/>
+      <handlers xmi:id="_UaO0ABpXEeio8_j2bAfDXQ" elementId="project003.handler.1" contributionURI="bundleclass://project003/project003.OtherPopupHandler" command="_R3rXsBpXEeio8_j2bAfDXQ"/>
       <menus xsi:type="menu:PopupMenu" xmi:id="_m--E4BozEeiy6NreA-KxgA" elementId="project003.popupmenu.mypopupmenu" label="My Popup Menu">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_pl65ABozEeiy6NreA-KxgA" elementId="project003.handledmenuitem.showhelloworld" label="Show Hello World" command="_XQ3NQBozEeiy6NreA-KxgA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xcjJIBpWEeio8_j2bAfDXQ" elementId="project003.handledmenuitem.secondmenuitem" label="Second Menu Item" command="_R3rXsBpXEeio8_j2bAfDXQ"/>
       </menus>
     </elements>
   </fragments>
