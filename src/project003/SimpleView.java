@@ -11,7 +11,7 @@ import org.eclipse.swt.widgets.Composite;
 
 public class SimpleView {
 	private static final String POPUPMENU_ID = "project003.popupmenu.mypopupmenu";
-	public static final String VIEW_ID = "project003.partdescriptor.showhellopartdescriptor";
+	public static final String VIEW_ID = "project003.partdescriptor.viewpartdescriptor";
 	private StyledText styledText;
 	
 	@Inject

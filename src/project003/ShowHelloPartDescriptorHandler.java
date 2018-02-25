@@ -6,7 +6,7 @@ import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;
 import org.eclipse.e4.ui.workbench.modeling.EPartService;
 
-public class ViewPopupHandler {
+public class ShowHelloPartDescriptorHandler {
 	@Inject
 	private EPartService epartService;
 	
@@ -18,7 +18,7 @@ public class ViewPopupHandler {
 		
 		if(findPartObj instanceof SimpleView) {
 			SimpleView v = (SimpleView) findPartObj;
-			v.appendText("Hello World");
+			v.appendText("Hello Chad Crowe!");
 		}
 	}
 }
